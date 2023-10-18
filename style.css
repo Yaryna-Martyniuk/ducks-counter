@@ -20,6 +20,11 @@ h2 {
     color: rgb(221, 220, 220);
 }
 
+p{
+    color: beige;
+    font-size: larger;
+}
+
 button {
     border: none;
     padding-top: 10px;
