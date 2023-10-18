@@ -15,7 +15,7 @@ function save() {
 
     let saveMessage = count + ' ' + separator + ' ';
 
-    saveElement.textContent += saveMessage;
+    saveElement.textContent += saveMessage; //textContent is an alternative to innerText, but renders hidden symbols like spaces etc.
 
     console.log(count);
 }
