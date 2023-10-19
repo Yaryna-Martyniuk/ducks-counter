@@ -9,34 +9,36 @@
         <title>Duck Counter</title>
     </head>
     <body>
-        <div class="frame">
-            <div class="title">
-                <h1>Ducks on the lake:</h1>
+        <div class="app">
+            <div class="frame">
+                <div class="title">
+                    <h1>Ducks on the lake:</h1>
+                </div>
+                <div class="main">
+                    <h2 id="count-el">0</h2>
+                    <button id="increment-btn" onclick="incrementBtn()">
+                        One more!
+                    </button>
+                    <button id="save-btn" onclick="save()">SAVE</button>
+                </div>
+                <div class="entries">
+                    <p id="save-el">Previous entries:  </p>
+                </div>
             </div>
-            <div class="main">
-                <h2 id="count-el">0</h2>
-                <button id="increment-btn" onclick="incrementBtn()">
-                    One more!
-                </button>
-                <button id="save-btn" onclick="save()">SAVE</button>
+            <div class="footer">
+                <p id="footer-text">
+                    I would highly recommend you to visit
+                    <a
+                        href="https://maps.app.goo.gl/nuom5z9Yr44kxvoX7"
+                        title="Click here to see the location!"
+                        >the Piskovi Ozera</a
+                    >
+                    while in Lviv, Ukraine. These are small lakes located almost
+                    in the center of the city. Here, you can feel peace and
+                    enjoy the sounds of nature, escaping from the city noise.
+                    It's one of my favorite places in Lviv!
+                </p>
             </div>
-            <div class="entries">
-                <p id="save-el">Previous entries:</p>
-            </div>
-        </div>
-        <div class="footer">
-            <p id="footer-text">
-                I would highly recommend you to visit
-                <a
-                    href="https://maps.app.goo.gl/nuom5z9Yr44kxvoX7"
-                    title="Clich here to see the location!"
-                    >the Piskovi Ozera</a
-                >
-                while in Lviv, Ukraine. These are small lakes located almost in
-                the center of the city. Here, you can feel peace and enjoy the
-                sounds of nature, escaping from the city noise. It's one of my
-                favorite places in Lviv!
-            </p>
         </div>
         <script src="index.js"></script>
     </body>
