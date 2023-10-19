@@ -6,16 +6,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
 
-        <title>Passenger Counter</title>
+        <title>Duck Counter</title>
     </head>
     <body>
-        <h1>People entered:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="incrementBtn()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <p id="save-el">Previous entries: </p>
-        <script src="index.js">
-        </script>
+        <div class="title">
+            <h1>Ducks on the lake:</h1>
+        </div>
+        <div class="main">
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="incrementBtn()">
+                One more!
+            </button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+        <div class="entries">
+            <p id="save-el">Previous entries:</p>
+        </div>
+        <div class="footer">
+            <p id="footer-text">
+                I would highly recommend you to visit Piskovi Ozera while in
+                Lviv, Ukraine. These are small lakes located almost in the
+                center of the city. Here, you can feel peace and enjoy the
+                sounds of nature, escaping from the city noise. It's one of my
+                favorite places in Lviv!
+            </p>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>
- 
